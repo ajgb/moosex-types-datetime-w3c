@@ -1,5 +1,9 @@
 Revision history for MooseX-Types-DateTime-W3C
 
+1.103360    Thu Dec  2 14:58:21 2010
+            require DateTime::TimeZone in version 1.26
+                (missing prereqs cause cpantests failures)
+
 1.103220    Thu Nov 18 20:57:35
             First version.
 
