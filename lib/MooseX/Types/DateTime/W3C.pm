@@ -10,7 +10,7 @@ use MooseX::Types -declare =>[qw(
 use MooseX::Types::Moose qw( Str Num );
 
 use DateTime;
-use DateTime::TimeZone;
+use DateTime::TimeZone 1.26;
 
 subtype DateTimeW3C,
     as Str,
